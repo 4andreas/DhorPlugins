@@ -39,7 +39,7 @@ function RhovanionMapWindow:Constructor(parent, class, race, shortcuts)
     mapLabel:SetPosition(10, 40);
     mapLabel:SetSize(1024, 768);
 
-    mapLabel:SetBackground(0x410E868B);
+    mapLabel:SetBackground(0x411C2DE4);
     mapLabel:SetParent(self);
     mapLabel:SetVisible(true);
 

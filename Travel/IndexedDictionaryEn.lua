@@ -160,6 +160,7 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide to the Camp of the Host", "0x70047BFA", "Guide to the Camp of the Host");
     hunterLocations:AddData("Guide to Haerondir", "0x70047C1D", "Guide to Haerondir");
     hunterLocations:AddData("Guide to the Udûn Foothold", "0x7004AE1E", "Guide to the Udûn Foothold");
+    hunterLocations:AddData("Guide to Dale", "0x7004D738", "Guide to Dale");
 
     wardenLocations:AddData("Muster in Ost Guruth", "0x70014786", "Muster in Ost Guruth");
     wardenLocations:AddData("Muster in Esteldín", "0x70014798", "Muster in Esteldín");
@@ -187,6 +188,8 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Muster in the Camp of the Host", "0x70047BFC", "Muster in the Camp of the Host");
     wardenLocations:AddData("Muster in Haerondir", "0x70047C23", "Muster in Haerondir");
     wardenLocations:AddData("Muster in the Udûn Foothold", "0x7004AE1F", "Muster in the Udûn Foothold");
+    wardenLocations:AddData("Muster in Dale", "0x7004AD73A", "Muster in Dale");
+
 
     racialLocations:AddData("Return to Bree", "0x700062F6", "Return to Bree");
     racialLocations:AddData("Return to the Shire", "0x700062C8", "Return to the Shire");
@@ -244,6 +247,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Journey to the Hall of the King", "0x7004B8C3", "Journey to the Hall of the King");
     repLocations:AddData("Journey to the Hall Under the Mountain", "0x7004B8C4", "Journey to the Hall Under the Mountain");
     repLocations:AddData("Journey to Bâr Thorenion", "0x7004B8C5", "Journey to Bâr Thorenion");
+    repLocations:AddData("Return to Dale (Rep)", "0x7004D738", "Return to Dale");
 
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Crude Map to Gramsfoot", "0x70028BBC");

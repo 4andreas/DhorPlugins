@@ -161,6 +161,7 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Führer zum Lager des Heeres", "0x70047BFA", "Führer zum Lager des Heeres");
     hunterLocations:AddData("Führer nach Haerondir", "0x70047C1D", "Führer nach Haerondir");
     hunterLocations:AddData("Führer zum Udûn-Brückenkopf", "0x7004AE1E", "Führer zum Udûn-Brückenkopf");
+    hunterLocations:AddData("Führer nach Thal", "0x7004d73b", "Führer nach Thal");
 
     wardenLocations:AddData("Appell in der Feste Guruth", "0x70014786", "Appell in der Feste Guruth");
     wardenLocations:AddData("Appell in Esteldín", "0x70014798", "Appell in Esteldín");
@@ -188,6 +189,8 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Appell im Lager des Heeres", "0x70047BFC", "Appell im Lager des Heeres");
     wardenLocations:AddData("Appell in Haerondir", "0x70047C23", "Appell in Haerondir");
     wardenLocations:AddData("Appell im Udûn-Brückenkopf", "0x7004AE1F", "Appell im Udûn-Brückenkopf");
+    wardenLocations:AddData("Appell in Thal", "0x7004d73a", "Appell in Thal");
+
 
     racialLocations:AddData("Rückkehr nach Bree (Rasse)", "0x700062F6", "Rückkehr nach Bree");
     racialLocations:AddData("Rückkehr ins Auenland (Rasse)", "0x700062C8", "Rückkehr ins Auenland");
@@ -245,6 +248,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Reise zur Halle des Königs", "0x7004B8C3", "Reise zur Halle des Königs");
     repLocations:AddData("Reise zur Halle unter dem Berg", "0x7004B8C4", "Reise zur Halle unter dem Berg");
     repLocations:AddData("Reise nach Bâr Thorenion", "0x7004B8C5", "Reise nach Bâr Thorenion");
+    repLocations:AddData("Rückkehr nach Thal", "0x7004d738", "Rückkehr nach Thal");
 
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Grobe Karte nach Gramfuß", "0x70028BBC");
