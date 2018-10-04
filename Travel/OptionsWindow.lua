@@ -13,7 +13,7 @@ function OptionsWindow:Constructor(parent)
 
     self.loaded = false;
     self.width = 800;
-    self.height = 800;
+    self.height = 840;
     self.windowWidth, self.windowHeight = Turbine.UI.Display:GetSize();
 
     self:SetPosition(self.windowWidth / 2 - self.width / 2, self.windowHeight / 2 - self.height / 2);

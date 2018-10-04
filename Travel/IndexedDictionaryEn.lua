@@ -161,6 +161,8 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide to Haerondir", "0x70047C1D", "Guide to Haerondir");
     hunterLocations:AddData("Guide to the Udûn Foothold", "0x7004AE1E", "Guide to the Udûn Foothold");
     hunterLocations:AddData("Guide to Dale", "0x7004D738", "Guide to Dale");
+    hunterLocations:AddData("Guide to Járnfast", "0x7004FACC", "Guide to Járnfast");
+    hunterLocations:AddData("Guide to Skarháld", "0x7004FACB", "Guide to Skarháld");
 
     wardenLocations:AddData("Muster in Ost Guruth", "0x70014786", "Muster in Ost Guruth");
     wardenLocations:AddData("Muster in Esteldín", "0x70014798", "Muster in Esteldín");
@@ -188,8 +190,9 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Muster in the Camp of the Host", "0x70047BFC", "Muster in the Camp of the Host");
     wardenLocations:AddData("Muster in Haerondir", "0x70047C23", "Muster in Haerondir");
     wardenLocations:AddData("Muster in the Udûn Foothold", "0x7004AE1F", "Muster in the Udûn Foothold");
-    wardenLocations:AddData("Muster in Dale", "0x7004AD73A", "Muster in Dale");
-
+    wardenLocations:AddData("Muster in Dale", "0x7004D73A", "Muster in Dale");
+    wardenLocations:AddData("Muster in Járnfast", "0x7004FACA", "Muster in Járnfast");
+    wardenLocations:AddData("Muster in Skarháld", "0x7004FACD", "Muster in Skarháld");
 
     racialLocations:AddData("Return to Bree", "0x700062F6", "Return to Bree");
     racialLocations:AddData("Return to the Shire", "0x700062C8", "Return to the Shire");
@@ -248,6 +251,8 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Journey to the Hall Under the Mountain", "0x7004B8C4", "Journey to the Hall Under the Mountain");
     repLocations:AddData("Journey to Bâr Thorenion", "0x7004B8C5", "Journey to Bâr Thorenion");
     repLocations:AddData("Return to Dale (Rep)", "0x7004D738", "Return to Dale");
+    repLocations:AddData("Return to Járnfast", "0x7004FAC3", "Return to Járnfast");
+    repLocations:AddData("Return to Skarháld", "0x7004FAC5", "Return to Skarháld");
 
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Crude Map to Gramsfoot", "0x70028BBC");

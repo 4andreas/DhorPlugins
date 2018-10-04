@@ -78,7 +78,10 @@ function GondorMapWindow:Constructor(parent, class, race, shortcuts)
         { 675, 240 }, -- Camp of the Host
         { 700, 215 }, -- Haerondir
         { 800, 290 }, -- Udûn Foothold
-
+        { -1, -1 }, -- Dale
+        { -1, -1 }, -- Jarnafst
+        { -1, -1 }, -- Skarhald
+        
         -- Muster skills
         { -1, -1 }, -- Ost Guruth
         { -1, -1 }, -- Esteldin
@@ -106,7 +109,10 @@ function GondorMapWindow:Constructor(parent, class, race, shortcuts)
         { 675, 240 }, -- Camp of the Host
         { 700, 215 }, -- Haerondir
         { 800, 290 }, -- Udûn Foothold
-
+        { -1, -1 }, -- Dale
+        { -1, -1 }, -- Jarnafst
+        { -1, -1 }, -- Skarhald
+        
         -- Reputation skills
         { -1, -1 }, -- Thorin's Hall
         { -1, -1 }, -- Bree
@@ -137,7 +143,10 @@ function GondorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Hall of the King
         { -1, -1 }, -- Hall Under the Mountain
         { -1, -1 }, -- Bâr Thorenion
-
+        { -1, -1 }, -- Dale
+        { -1, -1 }, -- Jarnafst
+        { -1, -1 }, -- Skarhald
+        
         -- Racial skills
         { -1, -1 }, -- Bree
         { -1, -1 }, -- Michel Delving

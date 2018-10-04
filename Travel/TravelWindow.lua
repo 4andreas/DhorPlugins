@@ -22,7 +22,7 @@ function TravelWindow:Constructor()
     settingsStrings = {}; -- save the settings as strings due to locale issue
     travelShortcuts = {}; -- put all the shortcuts into one table
     trainedSkills = Turbine.Gameplay.SkillList;
-    self.minWidth = 220;
+    self.minWidth = 240;
     self.minHeight = 150;
     self.disableResize = false;
     self.reloadGVMap = false;

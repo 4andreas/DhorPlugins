@@ -78,6 +78,9 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Camp of the Host
         { -1, -1 }, -- Haerondir
         { -1, -1 }, -- Udûn Foothold
+        { -1, -1 }, -- Dale
+        { -1, -1 }, -- Jarnafst
+        { -1, -1 }, -- Skarhald
 
         -- Warden skills
         { 710, 390 }, -- Ost Guruth
@@ -106,6 +109,9 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Camp of the Host
         { -1, -1 }, -- Haerondir
         { -1, -1 }, -- Udûn Foothold
+        { -1, -1 }, -- Dale
+        { -1, -1 }, -- Jarnafst
+        { -1, -1 }, -- Skarhald
 
         -- Reputation skills
         { 330, 300 }, -- Thorin's Hall
@@ -137,7 +143,10 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Hall of the King
         { -1, -1 }, -- Hall Under the Mountain
         { -1, -1 }, -- Bâr Thorenion
-
+        { -1, -1 }, -- Dale
+        { -1, -1 }, -- Jarnafst
+        { -1, -1 }, -- Skarhald
+        
         -- Racial skills
         { 625, 340 }, -- Bree
         { 500, 415 }, -- Michel Delving

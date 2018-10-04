@@ -16,7 +16,7 @@ function OptionsPanel:Constructor(parent)
 
     -- set size of window
     self.width = 800;
-    self.height = 800;
+    self.height = 840;
     self.windowWidth, self.windowHeight = Turbine.UI.Display:GetSize();
 
     -- create array of labels and check boxes
