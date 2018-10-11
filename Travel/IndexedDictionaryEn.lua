@@ -160,7 +160,7 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide to the Camp of the Host", "0x70047BFA", "Guide to the Camp of the Host");
     hunterLocations:AddData("Guide to Haerondir", "0x70047C1D", "Guide to Haerondir");
     hunterLocations:AddData("Guide to the Udûn Foothold", "0x7004AE1E", "Guide to the Udûn Foothold");
-    hunterLocations:AddData("Guide to Dale", "0x7004D738", "Guide to Dale");
+    hunterLocations:AddData("Guide to Dale", "0x7004D73B", "Guide to Dale");
     hunterLocations:AddData("Guide to Járnfast", "0x7004FACC", "Guide to Járnfast");
     hunterLocations:AddData("Guide to Skarháld", "0x7004FACB", "Guide to Skarháld");
 
