@@ -162,6 +162,8 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide vers Haerondir", "0x70047C1D", "Guide vers Haerondir");
     hunterLocations:AddData("Guide vers le fort d'Udûn", "0x7004AE1E", "Guide vers le fort d'Udûn");
     hunterLocations:AddData("Guide vers Dale", "0x7004d73b", "Guide vers Dale");
+    hunterLocations:AddData("Guide vers Jarnfast", "0x7004FACC", "Guide vers Jarnfast");
+    hunterLocations:AddData("Guide vers Skarhald", "0x7004FACB", "Guide vers Skarhald");
 
     wardenLocations:AddData("Rassemblement à Ost Guruth", "0x70014786", "Rassemblement à Ost Guruth");
     wardenLocations:AddData("Rassemblement à Esteldin", "0x70014798", "Rassemblement à Esteldin");
@@ -190,6 +192,8 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Rassemblement à Haerondir", "0x70047C23", "Rassemblement à Haerondir");
     wardenLocations:AddData("Rassemblement dans le fort d'Udûn", "0x7004AE1F", "Rassemblement dans le fort d'Udûn");
     wardenLocations:AddData("Retour à Dale", "0x7004d73a", "Retour à Dale");
+    wardenLocations:AddData("Retour à Jarnfast", "0x7004FACA", "Retour à Jarnfast");
+    wardenLocations:AddData("Retour à Skarhald", "0x7004FACD", "Retour à Skarhald");
 
     racialLocations:AddData("Retour à Bree", "0x700062F6", "Retour à Bree");
     racialLocations:AddData("Retournez dans la Comté", "0x700062C8", "Retournez dans la Comté");
@@ -248,6 +252,8 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Voyager jusqu'au Palais sous la Montagne", "0x7004B8C4", "Voyager jusqu'au Palais sous la Montagne");
     repLocations:AddData("Voyager jusqu'à Bâr Thorenion", "0x7004B8C5", "Voyager jusqu'à Bâr Thorenion");
     repLocations:AddData("Rievenir à Dale", "0x7004d738", "Rievenir à Dale");
+    repLocations:AddData("Revenir à Jarnfast", "0x7004FAC3", "Revenir à Jarnfast");
+    repLocations:AddData("Revenir à Skarhald", "0x7004FAC5", "Revenir à Skarhald");
 
     creepLocations:AddData("Carte grossière pour aller au Gouffre d'Isen", "0x70028BB3");
     creepLocations:AddData("Carte grossière pour aller à Tol Ascarnen", "0x70028BB6");

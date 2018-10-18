@@ -162,6 +162,8 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Führer nach Haerondir", "0x70047C1D", "Führer nach Haerondir");
     hunterLocations:AddData("Führer zum Udûn-Brückenkopf", "0x7004AE1E", "Führer zum Udûn-Brückenkopf");
     hunterLocations:AddData("Führer nach Thal", "0x7004d73b", "Führer nach Thal");
+    hunterLocations:AddData("Führer nach Járnfast", "0x7004FACC", "Führer nach Járnfast");
+    hunterLocations:AddData("Führer nach Skarháld", "0x7004FACB", "Führer nach Skarháld");
 
     wardenLocations:AddData("Appell in der Feste Guruth", "0x70014786", "Appell in der Feste Guruth");
     wardenLocations:AddData("Appell in Esteldín", "0x70014798", "Appell in Esteldín");
@@ -190,7 +192,8 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Appell in Haerondir", "0x70047C23", "Appell in Haerondir");
     wardenLocations:AddData("Appell im Udûn-Brückenkopf", "0x7004AE1F", "Appell im Udûn-Brückenkopf");
     wardenLocations:AddData("Appell in Thal", "0x7004d73a", "Appell in Thal");
-
+    wardenLocations:AddData("Musterung in Járnfast", "0x7004FACA", "Musterung in Járnfast");
+    wardenLocations:AddData("Musterung in Skarháld", "0x7004FACD", "Musterung in Skarháld");
 
     racialLocations:AddData("Rückkehr nach Bree (Rasse)", "0x700062F6", "Rückkehr nach Bree");
     racialLocations:AddData("Rückkehr ins Auenland (Rasse)", "0x700062C8", "Rückkehr ins Auenland");
@@ -249,7 +252,9 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Reise zur Halle unter dem Berg", "0x7004B8C4", "Reise zur Halle unter dem Berg");
     repLocations:AddData("Reise nach Bâr Thorenion", "0x7004B8C5", "Reise nach Bâr Thorenion");
     repLocations:AddData("Rückkehr nach Thal", "0x7004d738", "Rückkehr nach Thal");
-
+    repLocations:AddData("Rückkehr nach Járnfast", "0x7004FAC3", "Rückkehr nach Járnfast");
+    repLocations:AddData("Rückkehr nach Skarháld", "0x7004FAC5", "Rückkehr nach Skarháld");
+    
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Grobe Karte nach Gramfuß", "0x70028BBC");
     creepLocations:AddData("Karte nach Gramfuß", "0x70028BC1");
