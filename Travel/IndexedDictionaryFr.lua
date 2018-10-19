@@ -251,7 +251,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Voyager jusqu'au Palais du roi", "0x7004B8C3", "Voyager jusqu'au Palais du roi");
     repLocations:AddData("Voyager jusqu'au Palais sous la Montagne", "0x7004B8C4", "Voyager jusqu'au Palais sous la Montagne");
     repLocations:AddData("Voyager jusqu'à Bâr Thorenion", "0x7004B8C5", "Voyager jusqu'à Bâr Thorenion");
-    repLocations:AddData("Rievenir à Dale", "0x7004d738", "Rievenir à Dale");
+    repLocations:AddData("Revenir à Dale", "0x7004d738", "Revenir à Dale");
     repLocations:AddData("Revenir à Jarnfast", "0x7004FAC3", "Revenir à Jarnfast");
     repLocations:AddData("Revenir à Skarhald", "0x7004FAC5", "Revenir à Skarhald");
 
