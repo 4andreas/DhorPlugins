@@ -188,7 +188,9 @@ function TravelWindow:Constructor()
 
     -- manage hiding the UI
     self.KeyDown = function(sender, args)
-        if (args.Action == 268435635) then
+        if (args.Action == Turbine.UI.Lotro.Action.Escape) then
+            self:SetVisible(false);
+        elseif (args.Action == 268435635) then
             if (self.hidden == false) then
                 self.currentVisState = self:IsVisible();
                 self.hidden = true;
