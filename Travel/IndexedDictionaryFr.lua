@@ -201,6 +201,7 @@ function TravelDictionaries:CreateDictionaries()
     racialLocations:AddData("Retour à Fondcombe", "0x7000631F", "Retour à Fondcombe");
     racialLocations:AddData("Retour à la maison", "0x70041a22", "Retour à la maison");
     racialLocations:AddData("Retour à Caras Galadhon dans Lothlórien", "0x70048C8C", "Retour à Caras Galadhon dans Lothlórien");
+    racialLocations:AddData("Travel to Thorin's Hall", "0x70053C0F", "Travel to Thorin's Hall");
 
     -- check if a function that only exists in the newest update exists,
     -- if so, add the Return Home skills

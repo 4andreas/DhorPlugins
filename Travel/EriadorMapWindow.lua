@@ -146,7 +146,7 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Dale
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
-        
+
         -- Racial skills
         { 620, 400 }, -- Bree
         { 445, 415 }, -- Michel Delving
@@ -154,6 +154,7 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { 895, 390 }, -- Rivendell
         { -1, -1 }, -- Grimbeorn's House
         { -1, -1 }, -- Caras Galadhon
+        { 330, 330 }, -- Thorin's Hall
 
         -- Moors Map
         { 815, 300 }    -- Ettenmoors

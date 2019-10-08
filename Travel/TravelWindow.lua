@@ -99,8 +99,10 @@ function TravelWindow:Constructor()
         self.racetype = 5;
     elseif (playerRace == Turbine.Gameplay.Race.HighElf) then
         self.racetype = 6;
-    else
+    elseif (playerRace == Turbine.Gameplay.Race.StoutAxe) then
         self.racetype = 7;
+    else
+        self.racetype = 1; -- default to man race to prevent errors
     end
 
     -- save the player's combat states for managing hiding the window
@@ -1163,6 +1165,8 @@ function TravelWindow:ResetSettings()
         self.racetype = 5;
     elseif (playerRace == Turbine.Gameplay.Race.Highelf) then
         self.racetype = 6;
+    elseif (playerRace == Turbine.Gameplay.Race.StoutAxe) then
+        self.racetype = 7;
     else
         Turbine.Engine.WriteLine("What race are you?");
         return;

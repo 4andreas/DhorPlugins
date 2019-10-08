@@ -201,6 +201,7 @@ function TravelDictionaries:CreateDictionaries()
     racialLocations:AddData("Rückkehr nach Bruchtal (Rasse)", "0x7000631F", "Rückkehr nach Bruchtal");
     racialLocations:AddData("Zurück zu Grimbeorns Hütte (Rasse)", "0x70041A22", "Zum 1. Heim zurückkehren");
     racialLocations:AddData("Return to Caras Galadhon in Lothlórien", "0x70048C8C", "Return to Caras Galadhon in Lothlórien");
+    racialLocations:AddData("Travel to Thorin's Hall", "0x70053C0F", "Travel to Thorin's Hall");
 
     -- check if a function that only exists in the newest update exists,
     -- if so, add the Return Home skills
@@ -254,7 +255,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Rückkehr nach Thal", "0x7004d738", "Rückkehr nach Thal");
     repLocations:AddData("Rückkehr nach Járnfast", "0x7004FAC3", "Rückkehr nach Járnfast");
     repLocations:AddData("Rückkehr nach Skarháld", "0x7004FAC5", "Rückkehr nach Skarháld");
-    
+
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Grobe Karte nach Gramfuß", "0x70028BBC");
     creepLocations:AddData("Karte nach Gramfuß", "0x70028BC1");

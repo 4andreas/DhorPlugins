@@ -146,7 +146,7 @@ function RhovanionMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Dale
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
-        
+
         -- Racial skills
         { -1, -1 }, -- Bree
         { -1, -1 }, -- Michel Delving
@@ -154,6 +154,7 @@ function RhovanionMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Rivendell
         { 405, 180 }, -- Grimbeorn's House
         { -1, -1 }, -- Caras Galadhon
+        { -1, -1 }, -- Thorin's Hall
     };
     self:AddShortcuts();
 
