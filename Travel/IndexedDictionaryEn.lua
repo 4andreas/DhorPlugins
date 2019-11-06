@@ -163,6 +163,7 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide to Dale", "0x7004D73B", "Guide to Dale");
     hunterLocations:AddData("Guide to Járnfast", "0x7004FACC", "Guide to Járnfast");
     hunterLocations:AddData("Guide to Skarháld", "0x7004FACB", "Guide to Skarháld");
+    hunterLocations:AddData("Guide to Estolad Lân", "0x700551F4", "Guide to Estolad Lân");
 
     wardenLocations:AddData("Muster in Ost Guruth", "0x70014786", "Muster in Ost Guruth");
     wardenLocations:AddData("Muster in Esteldín", "0x70014798", "Muster in Esteldín");
@@ -193,6 +194,7 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Muster in Dale", "0x7004D73A", "Muster in Dale");
     wardenLocations:AddData("Muster in Járnfast", "0x7004FACA", "Muster in Járnfast");
     wardenLocations:AddData("Muster in Skarháld", "0x7004FACD", "Muster in Skarháld");
+    wardenLocations:AddData("Muster in Estolad Lân", "0x700551F2", "Muster in Estolad Lân");
 
     racialLocations:AddData("Return to Bree", "0x700062F6", "Return to Bree");
     racialLocations:AddData("Return to the Shire", "0x700062C8", "Return to the Shire");
@@ -254,6 +256,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Return to Dale (Rep)", "0x7004D738", "Return to Dale");
     repLocations:AddData("Return to Járnfast", "0x7004FAC3", "Return to Járnfast");
     repLocations:AddData("Return to Skarháld", "0x7004FAC5", "Return to Skarháld");
+    repLocations:AddData("Return to Estolad Lân", "0x700551F8", "Return to Estolad Lân");
 
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Crude Map to Gramsfoot", "0x70028BBC");
