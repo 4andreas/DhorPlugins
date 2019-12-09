@@ -220,7 +220,7 @@ function TravelDictionaries:CreateDictionaries()
         genLocations:AddData("Return Home 12", "0x7002FF63", "skip");
     end
     genLocations:AddData("Maison personnelle", "0x7000D046", "Retour à la maison personnelle");
-    genLocations:AddData("Allez à une maison premium", "0x70046EE4", "Allez à une maison premium");
+    genLocations:AddData("Aller à une maison premium", "0x70046EE4", "Aller à une maison premium");
     genLocations:AddData("Maison de confrérie", "0x7000D047", "Retour à la maison de confrérie");
 
     repLocations:AddData("Revenir à la Porte de Thorin (Rep)", "0x7001BF91", "Revenir à la Porte de Thorin");
