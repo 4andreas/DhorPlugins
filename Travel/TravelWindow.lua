@@ -192,6 +192,10 @@ function TravelWindow:Constructor()
     self.KeyDown = function(sender, args)
         if (args.Action == Turbine.UI.Lotro.Action.Escape) then
             self:SetVisible(false);
+            self:CloseGondorMap();
+            self:CloseMoorMap();
+            self:CloseEriadorMap();
+            self:CloseRhovanionMap();
         elseif (args.Action == 268435635) then
             if (self.hidden == false) then
                 self.currentVisState = self:IsVisible();
