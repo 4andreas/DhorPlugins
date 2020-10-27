@@ -82,6 +82,8 @@ function RhovanionMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
         { -1, -1 }, -- Estolad Lân
+        { -1, -1 }, -- Limlók
+        { -1, -1 }, -- Annâk-khurfu
 
         -- Muster skills
         { -1, -1 }, -- Ost Guruth
@@ -114,6 +116,8 @@ function RhovanionMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
         { -1, -1 }, -- Estolad Lân
+        { -1, -1 }, -- Limlók
+        { -1, -1 }, -- Annâk-khurfu
 
         -- Reputation skills
         { -1, -1 }, -- Thorin's Hall
@@ -149,6 +153,8 @@ function RhovanionMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
         { -1, -1 }, -- Estolad Lân
+        { -1, -1 }, -- Limlók
+        { -1, -1 }, -- Annâk-khurfu
 
         -- Racial skills
         { -1, -1 }, -- Bree

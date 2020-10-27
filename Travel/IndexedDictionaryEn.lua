@@ -164,6 +164,8 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide to Járnfast", "0x7004FACC", "Guide to Járnfast");
     hunterLocations:AddData("Guide to Skarháld", "0x7004FACB", "Guide to Skarháld");
     hunterLocations:AddData("Guide to Estolad Lân", "0x700551F4", "Guide to Estolad Lân");
+    hunterLocations:AddData("Guide to Limlók", "0x7005762D", "Guide to Limlók");
+    hunterLocations:AddData("Guide to Annâk-khurfu", "0x70058571", "Guide to Annâk-khurfu");
 
     wardenLocations:AddData("Muster in Ost Guruth", "0x70014786", "Muster in Ost Guruth");
     wardenLocations:AddData("Muster in Esteldín", "0x70014798", "Muster in Esteldín");
@@ -195,6 +197,8 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Muster in Járnfast", "0x7004FACA", "Muster in Járnfast");
     wardenLocations:AddData("Muster in Skarháld", "0x7004FACD", "Muster in Skarháld");
     wardenLocations:AddData("Muster in Estolad Lân", "0x700551F2", "Muster in Estolad Lân");
+    wardenLocations:AddData("Muster in Limlók", "0x70057635", "Muster in Limlók");
+    wardenLocations:AddData("Muster in Annâk-khurfu", "0x70058572", "Muster in Annâk-khurfu");
 
     racialLocations:AddData("Return to Bree", "0x700062F6", "Return to Bree");
     racialLocations:AddData("Return to the Shire", "0x700062C8", "Return to the Shire");
@@ -223,6 +227,7 @@ function TravelDictionaries:CreateDictionaries()
     genLocations:AddData("Personal House", "0x7000D046", "Travel to Personal House");
     genLocations:AddData("Premium House", "0x70046EE4", "Travel to Premium House");
     genLocations:AddData("Kinship House", "0x7000D047", "Travel to Kinship House");
+    genLocations:AddData("Kinship Member's House", "0x70057C36", "Travel to Kinship Member's House");
 
     repLocations:AddData("Return to Thorin's Gate (Rep)", "0x7001BF91", "Return to Thorin's Gate");
     repLocations:AddData("Return to Bree (Rep)", "0x7001BF90", "Return to Bree");
@@ -257,6 +262,8 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Return to Járnfast", "0x7004FAC3", "Return to Járnfast");
     repLocations:AddData("Return to Skarháld", "0x7004FAC5", "Return to Skarháld");
     repLocations:AddData("Return to Estolad Lân", "0x700551F8", "Return to Estolad Lân");
+    repLocations:AddData("Return to Limlók", "0x70057629", "Return to Limlók");
+    repLocations:AddData("Return to Annâk-khurfu", "0x7005856F", "Return to Annâk-khurfu");
 
     -- Crude Map to Gramsfoot for newb creeps
     creepLocations:AddData("Crude Map to Gramsfoot", "0x70028BBC");

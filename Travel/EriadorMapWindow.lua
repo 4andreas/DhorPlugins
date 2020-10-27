@@ -82,6 +82,8 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
         { -1, -1 }, -- Estolad Lân
+        { -1, -1 }, -- Limlók
+        { -1, -1 }, -- Annâk-khurfu
 
         -- Warden skills
         { 725, 400 }, -- Ost Guruth
@@ -114,6 +116,8 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
         { -1, -1 }, -- Estolad Lân
+        { -1, -1 }, -- Limlók
+        { -1, -1 }, -- Annâk-khurfu
 
         -- Reputation skills
         { 305, 330 }, -- Thorin's Hall
@@ -149,6 +153,8 @@ function EriadorMapWindow:Constructor(parent, class, race, shortcuts)
         { -1, -1 }, -- Jarnafst
         { -1, -1 }, -- Skarhald
         { -1, -1 }, -- Estolad Lân
+        { -1, -1 }, -- Limlók
+        { -1, -1 }, -- Annâk-khurfu
 
         -- Racial skills
         { 620, 400 }, -- Bree
