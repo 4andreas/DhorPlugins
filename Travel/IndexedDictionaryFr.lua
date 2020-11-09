@@ -18,12 +18,6 @@ mapHomeString = "Map Home";
 glanMapString = "Carte précise pour aller à Glân Vraig";
 glanMapItemString = "Carte précise pour aller à Glân Vraig";
 
--- adding map strings
-mapInstructionString = "Drag your maps from your inventory onto the " ..
-"quickslot below.  Then press the button " ..
-"to set your map home skills.";
-mapErrorString = "Carte non détectée, auncune mise à jour.";
-
 -- error messages
 resetOrderString = "Your order settings have been reset due to a change in " ..
 "the number of items saved.  This should only occur once.\n" ..
@@ -68,7 +62,6 @@ menuTextString = "Liste de texte";
 menuIconString = "Grille d'icône";
 menuCaroString = "Caroussel";
 menuPullString = "Menu déroulant";
-menuMapString = "Ajouter une carte";
 menuOptionsString = "Options";
 moorMapString = "Ouvrir la carte de Moor";
 eriadorMapString = "Ouvrir la carte de l'Eriador";
@@ -152,18 +145,24 @@ function TravelDictionaries:CreateDictionaries()
     hunterLocations:AddData("Guide vers Aldburg", "0x7003DC71", "Guide vers Aldburg");
     hunterLocations:AddData("Guide vers le Gouffre de Helm", "0x7003DC72", "Guide vers le Gouffre de Helm");
     hunterLocations:AddData("Guide vers Dol Amroth", "0x70041197", "Guide vers Dol Amroth");
-    hunterLocations:AddData("Guide vers Arnach", "0x70043A63", "Guide vers Arnach");
+    hunterLocations:AddData("Guide vers Arnach", "0x70043A63", "Guide pour Arnach");
     hunterLocations:AddData("Guide vers Minas Tirith", "0x70044985", "Guide vers Minas Tirith");
     hunterLocations:AddData("Guide pour se rendre au Camp Militaire", "0x700459AF", "Guide pour se rendre au Camp Militaire");
-    hunterLocations:AddData("Guide to after-battle Minas Tirith", "0x70046CBB", "Guide to after-battle Minas Tirith");
+    hunterLocations:AddData("Guide de Minas Tirith après la bataille", "0x70046CBB", "Guide de Minas Tirith après la bataille");
     hunterLocations:AddData("Guide vers Henneth Annûn", "0x70047077", "Guide vers Henneth Annûn");
     hunterLocations:AddData("Guide vers Osgiliath après la bataille", "0x70047074", "Guide vers Osgiliath après la bataille");
     hunterLocations:AddData("Guide vers le Camp de l'armée", "0x70047BFA", "Guide to the Camp of the Host");
     hunterLocations:AddData("Guide vers Haerondir", "0x70047C1D", "Guide vers Haerondir");
     hunterLocations:AddData("Guide vers le fort d'Udûn", "0x7004AE1E", "Guide vers le fort d'Udûn");
+    hunterLocations:AddData("Guide vers Jarnfast", "0x7004facc", "Guide vers Jarnfast");
+    hunterLocations:AddData("Guide vers Skarhald", "0x7004facb", "Guide vers Skarhald");
     hunterLocations:AddData("Guide vers Dale", "0x7004d73b", "Guide vers Dale");
-    hunterLocations:AddData("Guide vers Jarnfast", "0x7004FACC", "Guide vers Jarnfast");
-    hunterLocations:AddData("Guide vers Skarhald", "0x7004FACB", "Guide vers Skarhald");
+    hunterLocations:AddData("Guide vers Beorninghus", "0x70052F07", "Guide pour Beorninghus");
+    hunterLocations:AddData("Guide vers Hultvis", "0x70052F08", "Guide vers Hultvis");
+    hunterLocations:AddData("Guide vers Estolad Lân", "0x700551F4", "Guide vers Estolad Lân");
+    hunterLocations:AddData("Guide vers Limlok", "0x7005762d", "Guide de Limlok");
+    hunterLocations:AddData("Guide vers Annâk-khurfu", "0x7005856F", "Guide de Annâk-khurfu");
+
 
     wardenLocations:AddData("Rassemblement à Ost Guruth", "0x70014786", "Rassemblement à Ost Guruth");
     wardenLocations:AddData("Rassemblement à Esteldin", "0x70014798", "Rassemblement à Esteldin");
@@ -191,17 +190,23 @@ function TravelDictionaries:CreateDictionaries()
     wardenLocations:AddData("Rassemblement au Camp de l'armée", "0x70047BFC", "Rassemblement au Camp de l'armée");
     wardenLocations:AddData("Rassemblement à Haerondir", "0x70047C23", "Rassemblement à Haerondir");
     wardenLocations:AddData("Rassemblement dans le fort d'Udûn", "0x7004AE1F", "Rassemblement dans le fort d'Udûn");
-    wardenLocations:AddData("Retour à Dale", "0x7004d73a", "Retour à Dale");
     wardenLocations:AddData("Retour à Jarnfast", "0x7004FACA", "Retour à Jarnfast");
     wardenLocations:AddData("Retour à Skarhald", "0x7004FACD", "Retour à Skarhald");
+    wardenLocations:AddData("Retour à Dale", "0x7004d73a", "Retour à Dale");
+    wardenLocations:AddData("Rassemblement à Beorninghus", "0x70052F07", "Rassemblement à Beorninghus");
+    wardenLocations:AddData("Rassemblement à Hultvis", "0x70052F08", "Rassemblement à Hultvis");
+    wardenLocations:AddData("Rassemblement à Estolad Lân", "0x700551F2", "Rassemblement à Estolad Lân");
+    wardenLocations:AddData("Rassemblement à Limlok", "0x70057635", "Rassemblement à Limlok");
+    wardenLocations:AddData("Rassemblement à Annâk-khurfu", "0x7005856F", "Rassemblement à Annâk-khurfu");
+
 
     racialLocations:AddData("Retour à Bree", "0x700062F6", "Retour à Bree");
     racialLocations:AddData("Retournez dans la Comté", "0x700062C8", "Retournez dans la Comté");
-    racialLocations:AddData("Retour à la porte de Thorin", "0x70006346", "Retour à Thorin's Gate");
+    racialLocations:AddData("Retour à la porte de Thorin", "0x70006346", "Retour : Porte de Thorin");
     racialLocations:AddData("Retour à Fondcombe", "0x7000631F", "Retour à Fondcombe");
-    racialLocations:AddData("Retour à la maison", "0x70041a22", "Retour à la maison");
-    racialLocations:AddData("Retour à Caras Galadhon dans Lothlórien", "0x70048C8C", "Retour à Caras Galadhon dans Lothlórien");
-    racialLocations:AddData("Travel to Thorin's Hall", "0x70053C0F", "Travel to Thorin's Hall");
+    racialLocations:AddData("Retour à la maison", "0x70041A22", "Retour à la maison");
+    racialLocations:AddData("Retour à Caras Galadhon dans Lothlórien", "0x70048C8C", "Voyage vers Caras Galadhon, en Lothlórien");
+    racialLocations:AddData("Revenir au Palais de Thorin", "0x70053C0F", "Aller au Palais de Thorin");
 
     -- check if a function that only exists in the newest update exists,
     -- if so, add the Return Home skills
@@ -220,41 +225,46 @@ function TravelDictionaries:CreateDictionaries()
         genLocations:AddData("Return Home 12", "0x7002FF63", "skip");
     end
     genLocations:AddData("Maison personnelle", "0x7000D046", "Retour à la maison personnelle");
-    genLocations:AddData("Aller à une maison premium", "0x70046EE4", "Aller à une maison premium");
+    genLocations:AddData("Allez à une maison premium", "0x70046EE4", "Allez à une maison premium");
     genLocations:AddData("Maison de confrérie", "0x7000D047", "Retour à la maison de confrérie");
 
-    repLocations:AddData("Revenir à la Porte de Thorin (Rep)", "0x7001BF91", "Retour : Porte de Thorin");
-    repLocations:AddData("Retour à Bree (Rep)", "0x7001BF90", "Retour à Bree");
-    repLocations:AddData("Retour au Marché de Lalia", "0x700364B1", "Retour au Marché de Lalia");
-    repLocations:AddData("Retour à Grand'Cave (Rep)", "0x70023262", "Retour à Grand'Cave");
-    repLocations:AddData("Retour à Fondcombe (Rep)", "0x70023263", "Retour à Fondcombe");
-    repLocations:AddData("Retournez à Ost Guruth (Rep)", "0x70020441", "Retournez à Ost Guruth");
-    repLocations:AddData("Retour dans La Forêt Noire (Rep)", "0x7001F374", "Retour dans la Forêt Noire");
-    repLocations:AddData("Retour en Enedwaith (Rep)", "0x70021FA2", "Retour en Enedwaith");
-    repLocations:AddData("Retour à Galtrev (Rep)", "0x7002C647", "Retour à Galtrev");
-    repLocations:AddData("Retour à Stangarde (Rep)", "0x7002C65D", "Retour à Stangarde");
-    repLocations:AddData("Retourner à Neigebronne (Rep)", "0x70031A46", "Retourner à Neigebronne");
-    repLocations:AddData("Retour à Forloi (Rep)", "0x70036B5E", "Retour à Forloi");
-    repLocations:AddData("Retour à Aldburg (Rep)", "0x7003DC81", "Retour à Aldburg");
-    repLocations:AddData("Retour à Derunant (Rep)", "0x7004128F", "Retour à Derunant");
-    repLocations:AddData("Retour au Gouffre de Helm (Rep)", "0x7003DC82", "Retour au Gouffre de Helm");
-    repLocations:AddData("Retour à Dol Amroth (Rep)", "0x700411AC", "Retour à Dol Amroth");
-    repLocations:AddData("Retour à Arnach (Rep)", "0x70043A6A", "Retour à Arnach");
-    repLocations:AddData("Retour à Minas Tirith (Rep)", "0x7004497E", "Retour à Minas Tirith");
-    repLocations:AddData("Retour au Camp Militaire (Rep)", "0x700459A9", "Retour au camp militaire");
-    repLocations:AddData("Retour à Minas Tirith après la bataille (Rep)", "0x70046CC0", "Retour à Minas Tirith après la bataille");
-    repLocations:AddData("Retour à Henneth Annûn (Rep)", "0x70047080", "Retour à Henneth Annûn");
-    repLocations:AddData("Retour à Osgiliath après la bataille (Rep)", "0x7004707D", "Retour à Osgiliath après la bataille");
-    repLocations:AddData("Retour au Camp de l'armée (Rep)", "0x70047BF4", "Retour au Camp de l'armée");
-    repLocations:AddData("Retour à Haerondir (Rep)", "0x70047C1B", "Retour à Haerondir");
-    repLocations:AddData("Retour au fort d'Udûn (Rep)", "0x7004AE1D", "Retour au fort d'Udûn");
-    repLocations:AddData("Voyager jusqu'à la Cour de Lothlórien", "0x7004B8C2", "Voyager jusqu'à la Cour de Lothlórien");
-    repLocations:AddData("Voyager jusqu'au Palais du roi", "0x7004B8C3", "Voyager jusqu'au Palais du roi");
-    repLocations:AddData("Voyager jusqu'au Palais sous la Montagne", "0x7004B8C4", "Voyager jusqu'au Palais sous la Montagne");
-    repLocations:AddData("Voyager jusqu'à Bâr Thorenion", "0x7004B8C5", "Voyager jusqu'à Bâr Thorenion");
-    repLocations:AddData("Revenir à Dale", "0x7004d738", "Revenir à Dale");
-    repLocations:AddData("Revenir à Jarnfast", "0x7004FAC3", "Revenir à Jarnfast");
-    repLocations:AddData("Revenir à Skarhald", "0x7004FAC5", "Revenir à Skarhald");
+    repLocations:AddData("La Porte de Thorin", "0x7001BF91", "Retour : Porte de Thorin");
+    repLocations:AddData("Bree", "0x7001BF90", "Retour à Bree");
+    repLocations:AddData("Marché de Lalia", "0x700364B1", "Retour au Marché de Lalia");
+    repLocations:AddData("Grand'Cave", "0x70023262", "Retour à Grand'Cave");
+    repLocations:AddData("Fondcombe", "0x70023263", "Retour à Fondcombe");
+    repLocations:AddData("Ost Guruth", "0x70020441", "Retournez à Ost Guruth");
+    repLocations:AddData("Enedwaith", "0x70021FA2", "Retour en Enedwaith");
+    repLocations:AddData("Galtrev", "0x7002C647", "Retour à Galtrev");
+    repLocations:AddData("Dans La Forêt Noire", "0x7001F374", "Retour dans la Forêt Noire");
+    repLocations:AddData("Stangarde", "0x7002C65D", "Retour à Stangarde");
+    repLocations:AddData("Forloi", "0x70036B5E", "Retour à Forloi");
+    repLocations:AddData("Neigebronne", "0x70031A46", "Retourner à Neigebronne");
+    repLocations:AddData("Aldburg", "0x7003DC81", "Retour à Aldburg");
+    repLocations:AddData("Derunant", "0x7004128F", "Retour à Derunant");
+    repLocations:AddData("Gouffre de Helm", "0x7003DC82", "Retour au Gouffre de Helm");
+    repLocations:AddData("Dol Amroth", "0x700411AC", "Retour à Dol Amroth");
+    repLocations:AddData("Arnach", "0x70043A6A", "Retournez à Arnach");
+    repLocations:AddData("Minas Tirith", "0x7004497E", "Retour à Minas Tirith");
+    repLocations:AddData("Camp Militaire", "0x700459A9", "Retour au camp militaire");
+    repLocations:AddData("Minas T. après la bataille", "0x70046CC0", "Retour à Minas Tirith après la bataille");
+    repLocations:AddData("Osgiliath après la bataille", "0x7004707D", "Retour à Osgiliath après la bataille");
+    repLocations:AddData("Henneth Annûn", "0x70047080", "Retour à Henneth Annûn");
+    repLocations:AddData("Camp de l'armée", "0x70047BF4", "Retour au Camp de l'armée");
+    repLocations:AddData("Haerondir", "0x70047C1B", "Retour à Haerondir");
+    repLocations:AddData("Fort d'Udûn", "0x7004AE1D", "Retour au fort d'Udûn");
+    repLocations:AddData("Cour de Lothlórien", "0x7004B8C2", "Voyager jusqu'à la Cour de Lothlórien");
+    repLocations:AddData("Palais du roi", "0x7004B8C3", "Voyager jusqu'au Palais du roi");
+    repLocations:AddData("Bâr Thorenion", "0x7004B8C5", "Voyager jusqu'à Bâr Thorenion");
+    repLocations:AddData("Palais sous la Montagne", "0x7004B8C4", "Voyager jusqu'au Palais sous la Montagne");
+    repLocations:AddData("Dale", "0x7004d738", "Revenir à Dale");
+    repLocations:AddData("Jarnfast", "0x7004fac3", "Revenir à Jarnfast");
+    repLocations:AddData("Skarhald", "0x7004fac5", "Revenir à Skarhald");
+    repLocations:AddData("Beorninghus", "0x70052F12", "Retournez auprès de Beorninghus");
+    repLocations:AddData("Hultvis", "0x70052F04", "Retournez auprès de Hultvis");
+    repLocations:AddData("Estolad Lân", "0x700551F8", "Retour à Estolad Lân");
+    repLocations:AddData("Limlok", "0x70057629", "Retour à Limlok");
+    repLocations:AddData("Annâk-khurfu", "0x7005856F", "Retournez à Annâk-khurfu");
 
     creepLocations:AddData("Carte grossière pour aller au Gouffre d'Isen", "0x70028BB3");
     creepLocations:AddData("Carte grossière pour aller à Tol Ascarnen", "0x70028BB6");
