@@ -16,6 +16,8 @@ function travelCommand:Execute(command, arguments)
         travel:SetVisible(not travel:IsVisible());
     elseif (arguments == "dump") then
         travel:DoDump();
+    elseif (arguments == "list") then
+        travel:ListTrainedSkills();
     elseif (arguments ~= nil) then
         travelCommand:GetHelp();
     end

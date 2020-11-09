@@ -243,7 +243,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Rückkehr nach Minas Tirith", "0x7004497E", "Kehrt nach Minas Tirith zurück.");
     repLocations:AddData("Zurück zum Kriegslager der Rohirrim", "0x700459A9", "Zurück zum Kriegslager der Rohirrim");
     repLocations:AddData("Rückkehr ins schlachtgezeichnete Minas Tirith", "0x70046CC0", "Rückkehr ins schlachtgezeichnete Minas Tirith");
-    repLocations:AddData("Rückkehr ins schlachtgezeichnete Henneth Annûn", "0x70047080", "Rückkehr ins schlachtgezeichnete Henneth Annûn");
+    repLocations:AddData("Rückkehr nach Henneth Annûn", "0x70047080", "Rückkehr nach Henneth Annûn");
     repLocations:AddData("Rückkehr ins schlachtgezeichnete Osgiliath", "0x7004707D", "Rückkehr ins schlachtgezeichnete Osgiliath");
     repLocations:AddData("Rückkehr ins Lager des Heeres", "0x70047BF4", "Rückkehr ins Lager des Heeres");
     repLocations:AddData("Rückkehr nach Haerondir (Rep)", "0x70047C1B", "Rückkehr nach Haerondir");

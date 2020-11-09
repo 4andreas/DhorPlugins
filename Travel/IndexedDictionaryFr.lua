@@ -223,7 +223,7 @@ function TravelDictionaries:CreateDictionaries()
     genLocations:AddData("Aller à une maison premium", "0x70046EE4", "Aller à une maison premium");
     genLocations:AddData("Maison de confrérie", "0x7000D047", "Retour à la maison de confrérie");
 
-    repLocations:AddData("Revenir à la Porte de Thorin (Rep)", "0x7001BF91", "Revenir à la Porte de Thorin");
+    repLocations:AddData("Revenir à la Porte de Thorin (Rep)", "0x7001BF91", "Retour : Porte de Thorin");
     repLocations:AddData("Retour à Bree (Rep)", "0x7001BF90", "Retour à Bree");
     repLocations:AddData("Retour au Marché de Lalia", "0x700364B1", "Retour au Marché de Lalia");
     repLocations:AddData("Retour à Grand'Cave (Rep)", "0x70023262", "Retour à Grand'Cave");
@@ -243,7 +243,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Retour à Minas Tirith (Rep)", "0x7004497E", "Retour à Minas Tirith");
     repLocations:AddData("Retour au Camp Militaire (Rep)", "0x700459A9", "Retour au camp militaire");
     repLocations:AddData("Retour à Minas Tirith après la bataille (Rep)", "0x70046CC0", "Retour à Minas Tirith après la bataille");
-    repLocations:AddData("Retour à Henneth Annûn après la bataille (Rep)", "0x70047080", "Retour à Henneth Annûn après la bataille");
+    repLocations:AddData("Retour à Henneth Annûn (Rep)", "0x70047080", "Retour à Henneth Annûn");
     repLocations:AddData("Retour à Osgiliath après la bataille (Rep)", "0x7004707D", "Retour à Osgiliath après la bataille");
     repLocations:AddData("Retour au Camp de l'armée (Rep)", "0x70047BF4", "Retour au Camp de l'armée");
     repLocations:AddData("Retour à Haerondir (Rep)", "0x70047C1B", "Retour à Haerondir");

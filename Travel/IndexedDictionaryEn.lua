@@ -249,7 +249,7 @@ function TravelDictionaries:CreateDictionaries()
     repLocations:AddData("Return to Minas Tirith (Rep)", "0x7004497E", "Return to Minas Tirith");
     repLocations:AddData("Return to the War-stead (Rep)", "0x700459A9", "Return to the War-stead");
     repLocations:AddData("Return to after-battle Minas Tirith (Rep)", "0x70046CC0", "Return to after-battle Minas Tirith");
-    repLocations:AddData("Return to after-battle Henneth Annûn (Rep)", "0x70047080", "Return to after-battle Henneth Annûn");
+    repLocations:AddData("Return to Henneth Annûn (Rep)", "0x70047080", "Return to Henneth Annûn");
     repLocations:AddData("Return to after-battle Osgiliath (Rep)", "0x7004707D", "Return to after-battle Osgiliath");
     repLocations:AddData("Return to the Camp of the Host (Rep)", "0x70047BF4", "Return to the Camp of the Host");
     repLocations:AddData("Return to Haerondir (Rep)", "0x70047C1B", "Return to Haerondir");
